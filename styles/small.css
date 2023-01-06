@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/* Navigation Menu */
+nav {
+    background-color: black;
+  }
+  
+nav ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+nav ul li a {
+display: flex;
+justify-content: center;
+padding: 0.8rem 2vw;
+text-decoration: none;
+color: #eee;
+font-size: 1.5rem;
+border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+.open{
+    background-color: rgba(0, 0, 0, 0.9);
+    
+    position: fixed;
+    width: 100%;
+    
+}
+.open a{
+    margin-top: 1rem;
+}
+nav ul.open{
+    margin-top: 0.9rem;
+    height: 100%;
+}
+
+nav ul {
+    display: none;
+    }
+    
+nav ul {display: none;}
+nav ul.open {display: block;}
+
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
+
+.hmbbutton{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+.hmbbutton button{
+    border: none;
+    background-color: black;
+}
+.hmbbutton span{
+        font-size: 1.5rem;
+        color: white;
+}
+
+/* Navigation Menu */
+
+header{
+    display: flex;
+    background-color: rgb(38, 117, 206);
+}
+header img{
+    width: 100px;
+    padding-left: 1rem;
+}
+header h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    color: white;
+}
+
+
+/* Main */
+
+main{
+    max-width: 760px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card{
+    border-radius: 10px 10px;
+    margin: .4rem;
+    box-shadow: 5px 10px 20px 1px #5c5c5c;;
+    
+}
+.card h3{
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    background-color: rgb(38, 117, 206);
+    margin-top: 0;
+    border-radius: 10px ;
+    border-bottom: 0px solid ;
+}
+
+.card ul{
+    list-style: none;
+    margin-left: -2rem;
+}
+.card ul li{
+    text-decoration: none;
+    list-style: none;
+    padding-bottom: .5rem;
+   
+}
+.card a{
+    text-decoration: none;
+    color: black;
+    margin-left: .3rem; 
+}
+section:nth-child(3){
+    padding-bottom: 1rem;
+}
+
+section:nth-child(3) a{
+    color: blue;
+    margin-left: 1rem;
+  
+}
+
+section p{
+    padding: 1rem;
+}
+
+
+/* Footer */
+
+footer{
+    background-color:  rgb(38, 117, 206); ;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+footer p{
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.highlight{
+    color: yellow;
+}
