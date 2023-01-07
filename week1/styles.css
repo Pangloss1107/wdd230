@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto+Condensed&display=swap');
+
+:root{
+    --titles: 'Oswald', sans-serif;
+    --text:  'Roboto Condensed', sans-serif;
+    --main-color: #5b85aa;
+    --second-color: #03256c;
+    --third-color: #fe7f2d;
+    --fourth-color: #fff;
+}
+html{
+    background-color: var(--third-color) ;
+}
+
+body{
+    width:50%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: var(--fourth-color);
+}
+
+header{
+    background-color: #5b85aa;
+    color: #fff;
+    text-align: center;
+}
+h1{
+    text-shadow: 10px 10px 10px black;
+}
+h1, h2{
+    font-family: var(--titles);
+    
+    
+}
+h2{
+    color: var(--second-color);
+    border-bottom: 1px solid var(--third-color);
+}
+
+p, li{
+    font-family: var(--text);
+    padding: 1rem;
+}
+
+main{
+    justify-content: center;
+}
+
+.design-info img{
+    width: 100%;
+}
+
+.wireframe img{
+    width: 80%;
+
+}
