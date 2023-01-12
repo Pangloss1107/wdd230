@@ -1,0 +1,58 @@
+@media only screen and (min-width: 32rem) {
+    :root{
+        --titles: 'Oswald', sans-serif;
+        --text:  'Roboto Condensed', sans-serif;
+        --main-color: #5b85aa;
+        --second-color: #03256c;
+        --third-color: #fe7f2d;
+        --fourth-color: #fff;
+    }
+    body{
+        width: 80%;
+        margin: 0 auto;
+        align-content: center;
+    }
+
+    header h1{
+        font-size: 3rem;
+        display: flex;
+        
+        margin: 0 auto;
+        
+    }
+
+    .hambbutton{
+        display: none;
+        padding: 0;
+    }
+    nav button{
+        display: none;
+    }
+    nav ul li a{
+        font-size: 1.5rem;
+        color: white;
+        margin-right: 1.5rem;
+        border: none;
+        padding: 1rem;
+
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+        
+        
+    }
+
+    nav ul#navigationLinks {
+        display: flex;
+        justify-content: end;
+        position: inherit;
+    }
+
+    nav ul li a:hover{
+        font-size: 2rem;
+        color: var(--third-color);
+    }
+
+    
+}
