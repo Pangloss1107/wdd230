@@ -35,12 +35,24 @@
     <header>
         <div id="mode"><span class="material-symbols-outlined">dark_mode</span></div>
 
-        <img src="images/pic_of_me.jpg" alt="Picture of me">
+        <img src="images/pic_of_me.webp" alt="Picture of me" loading="lazy">
 
         <h1>Pablo Santos</h1>
     </header>
 
+    <div class="hero">
+        <picture >
+            <source media="(min-width: 32rem)" srcset="./images/cali-temple-large.webp" loading="lazy">
+
+            <img src= "images/cali_colombia_temple-small.webp" alt="Small image temple" loading="lazy">
+        </picture>
+        <div class="herolabel">
+			<p>Cali Colombia Temple</p>
+		</div>
+    </div>
+
     <main>
+        
 
         <h2>WDD 230: Course Activity Portal</h2>
         
@@ -63,12 +75,16 @@
 
             <section class="card grid3">
                 <h3>Information</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore, earum veritatis impedit, nemo ab illum corrupti, beatae odio nobis officiis voluptates illo praesentium libero rerum esse quo dolorem excepturi minus.</p>
+                <p>Number of Visits: <span class="visits"></span></p>
 
             </section>
         
 
     </main>
+
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d19615.557605960606!2d-56.08105333317644!3d-34.8825126584669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suy!4v1674020523512!5m2!1sen!2suy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
     
     <footer>
         <p>&copy; <span id="year"> </span><br>Pablo Santos <br> Montevideo</p>

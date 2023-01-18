@@ -88,4 +88,12 @@
         font-size: 1.5rem;
     }
 
+
+    div.hero {
+        width: 100%;
+        margin-top: 1.5rem;
+        position: relative;
+    }
+
+    
 }
