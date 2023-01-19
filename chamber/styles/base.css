@@ -299,3 +299,6 @@ footer{
 .content-img img{
     width: 100%;
 }
+.content-img p{
+    font-family: var(--text);
+}
