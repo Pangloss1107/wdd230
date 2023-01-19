@@ -99,4 +99,13 @@
         width: 600px;
         height: 400px;
     }
+
+
+    /*Discover PAGE*/
+
+    div.grid-discover{
+        background-color: red;
+    }
+
+    
 }
