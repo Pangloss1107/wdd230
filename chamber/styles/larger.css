@@ -134,4 +134,47 @@
         grid-column: 1/3;
         text-align: center;
     }
+
+    /*Discover PAGE */
+    .grid-discover{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .content-img{
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .sidebar{
+        grid-column: 2;
+        grid-row: 1;
+        border:.5px solid var(--main-color);
+        margin-top: 1rem;
+        margin-left: -5rem;
+        margin-right: 2rem;
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .sidebar p{
+        padding-right: 3rem;
+        font-family: var(--text);
+        font-size: 20px;
+        
+    }
+
+    .content-img{
+        padding-top: 1rem;
+        padding-left: 1rem;
+        
+    }
+    .content-img img{
+        width: 600px;
+        
+    }
+    
+    .content-img img:hover{
+        box-shadow: 0 0 50px #333;
+    }
 }

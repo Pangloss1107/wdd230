@@ -281,3 +281,21 @@ footer{
 .logo-footer img{
     width: 180px;
 }
+
+
+
+/*Discover PAGE */
+
+.grid-discover{
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar{
+    padding: 1rem;
+    font-family: var(--text);
+}
+
+.content-img img{
+    width: 100%;
+}
