@@ -29,16 +29,19 @@ document.getElementById("modified").textContent = completeMod;
 // Dark Mode
 
 const modeButton = document.querySelector("#mode");
-const main = document.querySelector("main");
+const body = document.querySelector("body");
+const titles = document.querySelector("h2");
 
 modeButton.addEventListener("click", () => {
 	if (modeButton.textContent.includes("dark_mode")) {
-		main.style.background = "#000";
-		main.style.color = "#fff";
+		body.style.background = "#000";
+		body.style.color = "#fff";
+		titles.style.color = "#fff";
 		modeButton.innerHTML = '<span class="material-symbols-outlined">brightness_5</span>'
 	} else {
-		main.style.background = "#eee";
-		main.style.color = "#000";
+		body.style.background = "#eee";
+		body.style.color = "#000";
+		titles.style.color = "#03256c";
 		modeButton.innerHTML = '<span class="material-symbols-outlined">dark_mode</span>'
 	}
 });

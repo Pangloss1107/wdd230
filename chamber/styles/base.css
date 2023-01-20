@@ -8,6 +8,9 @@
     --third-color: #fe7f2d;
     --fourth-color: #fff;
 }
+p{
+    font-size: 16px;
+}
 
 /* Navigation Menu */
 
@@ -217,8 +220,13 @@ nav ul.open {display: block;}
     border-radius: 10px;
     padding: 1rem;
 }
-
 .spotlights h2{
+    font-size: 1.3rem;
+    font-family: var(--titles);
+    letter-spacing: 1px;
+    color: var(--second-color);
+}
+.spotlights h3{
     font-size: 1.3rem;
     font-family: var(--titles);
     letter-spacing: 1px;
@@ -238,7 +246,20 @@ nav ul.open {display: block;}
     text-align: center;
     color: var(--second-color);
 }
-
+/* Weather */
+div.weather{
+    border: 1px solid var(--second-color);
+}
+.weather h2{
+    font-size: 32px;
+    font-family: var(--titles);
+    letter-spacing: 1px;
+    color: var(--second-color);
+    text-align: center;
+}
+.weather p{
+    font-family: var(--text);
+}
 
 /* Footer */
 
@@ -248,17 +269,20 @@ footer{
 }
 
 .basefooter{
-    color: yellow;
+    color: black;
     padding: 1rem;
+    text-align: center;
 }
 .social-icons{
     display: flex;
     flex-direction: row;
     align-items: flex-end;
+    justify-content: end;
+    margin-right: 1rem;
 }
 .social-icons img{
     width: 30px;
-    margin: .2rem;
+    margin: 2px
     
 }
 
@@ -269,10 +293,10 @@ footer{
 }
 
 .contact-info{
-    color: var(--fourth-color);
+    color:black;
     padding-left: .2rem;
     text-align: center;
-    font-size: .8rem;
+    font-size: 13px;
 }
 .logo-footer{
     display: flex;
