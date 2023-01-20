@@ -249,6 +249,7 @@ nav ul.open {display: block;}
 /* Weather */
 div.weather{
     border: 1px solid var(--second-color);
+    text-align: center;
 }
 .weather h2{
     font-size: 32px;
