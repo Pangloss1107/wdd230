@@ -270,4 +270,11 @@
         box-shadow: 0 0 50px #333;;
     }
 
+    div.visits{
+        padding: 1rem;
+        font-size: 20px;
+        width: 30%;
+        color: white;
+    }
+
 }
