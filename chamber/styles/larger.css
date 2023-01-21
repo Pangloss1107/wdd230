@@ -156,17 +156,18 @@
 
     .grid-discover div div div{
         border: none;
-        margin-bottom: 3rem;
     }
     .rambla{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        margin-bottom: 2rem;
         
     }
 
     .rambla div{
         grid-column: 2;
         grid-row: 1;
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-content: center;
@@ -174,34 +175,43 @@
     .rambla img{
         grid-column: 1;
         grid-row: 1;
+        width: 100%;
+        height: 100%;
     }
     
     .playamvd{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        margin-bottom: 2rem;
     }
     
     .playamvd div{
         grid-column: 1;
         grid-row: 1;
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-content: center;
+        
     }
     .playamvd img{
         grid-column: 2;
         grid-row: 1;
+        width: 100%;
+        height: 100%;
     }
 
     .oldcity{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        margin-bottom: 2rem;
         
     }
 
     .oldcity div{
         grid-column: 2;
         grid-row: 1;
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-content: center;
@@ -209,11 +219,14 @@
     .oldcity img{
         grid-column: 1;
         grid-row: 1;
+        width: 100%;
+        height: 100%;
     }
 
     .biblioteca{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        margin-bottom: 2rem;
     }
     
     .biblioteca div{
@@ -227,21 +240,34 @@
     .biblioteca img{
         grid-column: 2;
         grid-row: 1;
+        width: 100%;
+        height: 100%;
     }
 
     .cartelmvd{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        margin-bottom: 2rem;
         
     }
 
     .cartelmvd div{
         grid-column: 2;
         grid-row: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
     }
     .cartelmvd img{
         grid-column: 1;
         grid-row: 1;
+        width: 100%;
+        height: 100%;
+    }
+
+    .grid-discover img:hover{
+        box-shadow: 0 0 50px #333;;
     }
 
 }
