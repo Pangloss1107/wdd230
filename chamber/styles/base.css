@@ -350,3 +350,14 @@ div.sidebar {
     font-family: var(--text);
     border: none;
 }
+
+/*Number of visits */
+
+div.visits{
+    text-align: center;
+    font-family: var(--text);
+    border: .3px solid var(--second-color);
+    width: 50%;
+    margin: 0 auto;
+}
+
