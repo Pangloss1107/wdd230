@@ -153,43 +153,95 @@
     }
 
     /*Discover PAGE */
-    .grid-discover{
+
+    .grid-discover div div{
+        border: none;
+        margin-bottom: 3rem;
+    }
+    .rambla{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        
     }
 
-    .content-img{
+    .rambla div{
+        grid-column: 2;
+        grid-row: 1;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .rambla img{
         grid-column: 1;
         grid-row: 1;
     }
-    .sidebar{
-        grid-column: 2;
-        grid-row: 1;
-        margin-top: 1rem;
-        display: flex;
-        justify-content: center;
-        width: 70%;
+    
+    .playamvd{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
     
-    .sidebar p{
-        padding: 2rem;
-        padding-right: 3rem;
-        font-family: var(--text);
-        font-size: 20px;
+    .playamvd div{
+        grid-column: 1;
+        grid-row: 1;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .playamvd img{
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .oldcity{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         
     }
 
-    .content-img{
-        padding-top: 1rem;
-        padding-left: 1rem;
-        
+    .oldcity div{
+        grid-column: 2;
+        grid-row: 1;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
     }
-    .content-img img{
-        width: 500px;
-        
+    .oldcity img{
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .biblioteca{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
     
-    .content-img img:hover{
-        box-shadow: 0 0 50px #333;
+    .biblioteca div{
+        grid-column: 1;
+        grid-row: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
     }
+    .biblioteca img{
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .cartelmvd{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+
+    .cartelmvd div{
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .cartelmvd img{
+        grid-column: 1;
+        grid-row: 1;
+    }
+
 }
