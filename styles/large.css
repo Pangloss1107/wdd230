@@ -1,7 +1,7 @@
 @media only screen and (min-width: 32rem) {
     
     body{
-        max-width: 760px;
+        width: 50%;
         margin: 0 auto;
         align-content: center;
     }

@@ -109,7 +109,7 @@ header h1{
 /* Main */
 
 main{
-    max-width: 760px;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;

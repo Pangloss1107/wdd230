@@ -62,3 +62,17 @@ if (numVisits !== 0) {
 numVisits++;
 // store the new number of visits value
 localStorage.setItem("visits-ls", numVisits);
+
+
+
+// JS for rating 
+
+const rating = document.getElementById("rating");
+const rangevalue = document.getElementById("r");
+
+function displayRatingValue() {
+    rating.innerHTML = rangevalue.value;
+}
+
+rangevalue.addEventListener('change', displayRatingValue);
+rangevalue.addEventListener('input', displayRatingValue);
