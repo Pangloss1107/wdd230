@@ -89,40 +89,78 @@
 
     <section class="input-information">
         <h1>📧 Send Us a Message</h1>
-	<form method="get">
-		<div id="formmessage"></div>
-		<label for="fullname">Name:</label>
-		<input type="text" id="fullname" name="fullname" required placeholder="Your full name"  />
-		<label for="email">Email address:</label>
-		<input type="email" id="email" name="email" required />
-        <label for="r">Rate the Service [ <span id="rating"></span> ]:</label>
-	<div class="rangecontainer">
-		<input type="range" min="1" max="10" id="r" name="r" list="ten">
-		<div class="ratinglabels">
-			<span class="ratevalue">1</span>
-			<span class="ratevalue">2</span>
-			<span class="ratevalue">3</span>
-			<span class="ratevalue">4</span>
-			<span class="ratevalue">5</span>
-            <span class="ratevalue">6</span>
-            <span class="ratevalue">7</span>
-            <span class="ratevalue">8</span>
-            <span class="ratevalue">9</span>
-            <span class="ratevalue">10</span>
-	 </div>
-	</div>
-		<label for="keyphrase">Username identifier:</label>
-		<input type="password" id="keyphrase" name="keyphrase" pattern="[a-z]*" required /> <!-- {min,max} -->
-		<label for="keyphrase2">Re-enter Key Phrase:</label>
-		<input type="password" id="keyphrase2" name="keyphrase2" required />
+        <form method="get" id="info-form">
+            <div id="formmessage"></div>
+            <label for="fullname">Name:</label>
+            <input type="text" id="fullname" name="fullname" required placeholder="Your full name"  />
+            <label for="email">Email address:</label>
+            <input type="email" id="email" name="email" required />
+            <label for="r" id="rate">Rate the Service [ <span id="rating"></span> ]:</label>
+        <div class="rangecontainer">
+            <input type="range" min="1" max="10" id="r" name="r" list="ten">
+            <div class="ratinglabels">
+                <span class="ratevalue">1</span>
+                <span class="ratevalue">2</span>
+                <span class="ratevalue">3</span>
+                <span class="ratevalue">4</span>
+                <span class="ratevalue">5</span>
+                <span class="ratevalue">6</span>
+                <span class="ratevalue">7</span>
+                <span class="ratevalue">8</span>
+                <span class="ratevalue">9</span>
+                <span class="ratevalue">10</span>
+        </div>
+        </div>
+            <label for="keyphrase">Username identifier:</label>
+            <input type="password" id="keyphrase" name="keyphrase"  placeholder="12 characters & 1 not alphanumeric" required /> 
+            <label for="keyphrase2">Re-enter Username:</label>
+            <input type="password" id="keyphrase2" name="keyphrase2" pattern="[a-z]*"   required />
 
-		<label for="comments">Message:</label>
-		<textarea id="comments" name="comments" required></textarea>
-		<button id="btnSubmit" type="submit">Send Message</button>
-		<input type="hidden" value="43aster">
-	</form>
+            <label for="comments">Message:</label>
+            <textarea id="comments" name="comments" required></textarea>
+            <button id="btnSubmit" type="submit">Send Message</button>
+            <input type="hidden" value="43aster">
+
+        </form>
     </section>
+
+    <section class="table-section">
+
+        <table id="info-table">
+            <caption>Table: Your information</caption>
+            <thead>
+                <tr>
+                    <th colspan="2">Your Information</th>
+                </tr>
     
+                <tr>
+                    <th>Field</th>
+                    <th>Value</th>
+                </tr>
+            </thead>    
+
+            <tbody>
+                <tr>
+                    <th>Name:</th>
+                    <th id="info-name"><output form="info-form" id="x" name="x" for="fullname"></output></th>
+                </tr>
+                <tr>
+                    <th>Email:</th>
+                    <th id="info-email"></th>
+                </tr>
+                <tr>
+                    <th>Rating:</th>
+                    <th id="info-rating"></th>
+                </tr>
+                <tr>
+                    <th>Username:</th>
+                    <th id="info-username"></th>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+        
     <footer>
         <p>&copy; <span id="year"> </span><br>Pablo Santos <br> Montevideo</p>
         <p class="highlight"><span id="modified"></span></p>

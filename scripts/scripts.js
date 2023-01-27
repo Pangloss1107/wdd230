@@ -76,3 +76,30 @@ function displayRatingValue() {
 
 rangevalue.addEventListener('change', displayRatingValue);
 rangevalue.addEventListener('input', displayRatingValue);
+
+// Display the information in a table
+
+
+
+const form = document.getElementById("info-form");
+form.addEventListener("submit", function(event){
+	event.preventDefault();
+
+	let infoName = document.getElementById("info-name")
+	let inputName = document.getElementById("fullname").value
+	infoName.textContent = inputName;
+
+	let inputEmail = document.getElementById("email").value;
+	let infoEmail = document.getElementById("info-email");
+	infoEmail.innerHTML= inputEmail;
+
+	let inputRating = document.getElementById("r").value;
+	let infoRating = document.getElementById("info-rating");
+	infoRating.innerHTML= inputRating;
+
+	let inputUserName = document.getElementById("keyphrase").value;
+	let infoUserName = document.getElementById("info-username");
+	infoUserName.innerHTML= inputUserName;
+
+})
+
