@@ -107,7 +107,14 @@
         background-color: red;
     }
 
+    
+    form{
+        font-size: 2rem;
+    }
 
+    table th{
+        font-size: 35px;
+    }
 
     
 }
