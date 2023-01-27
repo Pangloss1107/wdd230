@@ -1,3 +1,10 @@
+:root{
+    --main-color: rgb(38, 117, 206);
+    --secon-color: black;
+    --titles: 'Oswald', sans-serif;
+    --text:  'Roboto Condensed', sans-serif;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -78,6 +85,7 @@ header img{
     padding-left: 1rem;
 }
 header h1{
+    font-family: var(--titles);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -117,11 +125,13 @@ main{
 
 main h2{
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    font-family: var(--titles);
 }
 .card{
     border-radius: 10px 10px;
     margin: .4rem;
-    box-shadow: 5px 10px 20px 1px #5c5c5c;;
+    box-shadow: 5px 10px 20px 1px #5c5c5c;
+    font-family: var(--text);
     
 }
 .card h3{
@@ -164,6 +174,7 @@ section:nth-child(3) a{
 
 section p{
     padding: 1rem;
+    font-family: var(--text);
 }
 
 
@@ -295,9 +306,9 @@ table tbody th:nth-child(2){
 }
 
 table thead{
-    background-color: black;
+    background-color: var(--secon-color);
     color: rgb(250, 237, 237);
 }
 table thead th{
-    background-color: black;
+    background-color: var(--secon-color);;
 }
