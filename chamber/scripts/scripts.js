@@ -33,16 +33,16 @@ const body = document.querySelector("body");
 const titles = document.querySelector("h2");
 
 modeButton.addEventListener("click", () => {
-	if (modeButton.textContent.includes("dark_mode")) {
+	if (modeButton.textContent.includes("🌙")) {
 		body.style.background = "#000";
 		body.style.color = "#fff";
 		titles.style.color = "#fff";
-		modeButton.innerHTML = '<span class="material-symbols-outlined">brightness_5</span>'
+		modeButton.textContent = "🌞"
 	} else {
 		body.style.background = "#eee";
 		body.style.color = "#000";
 		titles.style.color = "#03256c";
-		modeButton.innerHTML = '<span class="material-symbols-outlined">dark_mode</span>'
+		modeButton.innerHTML = "🌙"
 	}
 });
 

@@ -148,8 +148,7 @@
     }
 
     .logo-footer img{
-        width: 300px;
-        height: 300px;
+        width: 50%
     }
 
     /*Discover PAGE */
@@ -276,5 +275,38 @@
         width: 30%;
         color: white;
     }
+
+
+    
+    /*Join Page */
+
+    .grid-join{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 1rem;
+    }
+    .container-membership h2:nth-child(1){
+        font-size: 2rem;
+    }
+
+    div.container-membership{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .thanksmessage h1{
+        text-align: center;
+        font-family: var(--titles);
+        letter-spacing: 3px;
+        font-size: 4rem;
+    }
+    
+    .thanksmessage p{
+        padding: 2rem;
+        font-family: var(--text);
+        font-size: 2rem;
+        
+    }
+    
 
 }

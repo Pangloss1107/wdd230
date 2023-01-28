@@ -113,6 +113,7 @@ nav ul.open {display: block;}
 .hmbbutton button{
     border: none;
     background-color: var(--main-color);
+    
 
 }
 .hmbbutton span{
@@ -364,3 +365,145 @@ div.visits{
     color: white;
 }
 
+/*Join Page */
+.container-form{
+    background-color: var(--second-color);
+    padding: 0;
+    margin: 0;
+}
+.grid-join{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.jointitle{
+    text-align: center;
+    color:var(--fourth-color);
+    font-family: var(--titles);
+    letter-spacing: 3px;
+    font-size: 2rem;
+}
+form fieldset{
+    margin: 2rem;
+    border: 1px solid  rgb(186, 188, 186);
+    border-radius: 10px;
+}
+
+form legend{
+    margin: 0 1rem;
+    padding: 0.5rem;
+    color: var(--fourth-color);
+    font-family: var(--text);
+    font-size: 20px;
+}
+
+form label.top, form div{
+    display: block;
+    padding-top: 1rem;
+    font-size: 20px;
+    color: var(--fourth-color);
+    font-family: var(--text);
+}
+
+form label.top input, form label.top select{
+    display: block;
+    font-size: 1.5rem;
+    border: solid 1px var(--third-color);
+    border-radius: 4px;
+    color:var(--fourth-color);
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+    font-family:  var(--text);
+}
+
+form input.sbs, form label{
+    color:#f7f7f7;
+}
+
+form input.submitBtn{
+    border: none;
+    background-color: var(--third-color);
+    color: var(--second-color);
+    font-size: 30px;
+    font-family: var(--text);
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    margin-left: 5rem;
+    width: 50%;
+
+}
+
+form label.top input:required{
+    border-left: red solid 6px;
+
+}
+
+form label.top input:required:valid{
+    border-left: green solid 6px;
+}
+
+form fieldset textarea{
+    width: 100%;
+}
+
+div.container-membership{
+    background-color: var(--main-color);
+    color: var(--fourth-color);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.container-membership div{
+    display: flex;
+    flex-direction: column;
+}
+.radio-memb{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+}
+
+.radios{
+    border: none;
+    padding-bottom: 1rem;
+    display: block;
+}
+
+
+div.container-membership {
+    background-color: var(--second-color)
+}
+.container-membership h2{
+    text-align: center;
+    font-family: var(--titles);
+    letter-spacing: 3px;
+}
+
+.container-membership p{
+    padding: 14px;
+    font-family: var(--text);
+}
+
+.thanksmessage {
+    background-color: var(--second-color);
+    color: var(--fourth-color);
+}
+
+.thanksmessage h1{
+    text-align: center;
+    font-family: var(--titles);
+    letter-spacing: 3px;
+}
+
+.thanksmessage p{
+    padding: 1rem;
+    font-family: var(--text);
+    font-size: 1.5rem;
+}
+
+.ocultar{
+    display: none;
+}

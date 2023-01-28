@@ -116,5 +116,15 @@
         font-size: 35px;
     }
 
+
+
+
+    /*Join Page */
+
+    .grid-join{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
     
 }

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=" This website is the Montevideo Chamber of Commerce">
+    <title>Chamber Of Commerce - Join Page</title>
+    <meta name="author" content="Pablo Santos">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="../favicon.ico">
+    <meta property="og:title" content="Portal WDD 230">
+    <meta property="og:type" content="article" />
+    <meta property="og:image" content="https://www.descubrimontevideo.uy/sites/default/files/styles/escala_y_recorte_1600x750/public/2022-09/Letras-de-Montevideo.jpg?itok=mBvt0QPz">
+    <meta property="og:url" content="https://pangloss1107.github.io/wdd230/">
+    <meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+    <div class="ocultar"><div class="visits">Number of visits: <span id="visits"></span></div></div>
+    
+    <header>
+        
+        <nav>
+            <div class="logo">
+                <img src="../chamber/iamges/chamber-logo-removebg-preview.png" alt="Chamber Logo">
+            </div>
+            <div class="hmbbutton">
+                <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            </div>
+            <div>
+                <ul id="navigationLinks">
+                    <li><a href="index.html" >Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="#">Directory</a></li>
+                    <li><a href="# "class="active">Join</a></li>
+                </ul>
+            </div>
+
+            <div class="social-header">
+
+                <a href="https://www.facebook.com/"><img src="iamges//facebook_icon-icons.com_66092.png" alt="facebook icon"></a>
+                <a href="https://www.linkedin.com/in/pablo-santos-511101167/"><img src="iamges/linkedin_icon-icons.com_65929.png" alt="linkedin icon"></a>
+                <a href="https://www.instagram.com/"><img src="iamges/instagram_logo_icon_186894.png" alt="instagram icon"></a>
+
+            </div>
+        </nav>
+    </header>
+    <main>
+        
+        <div class="grid-join"> 
+            
+            <div class="container-form">
+                <div id="mode" ><span class="material-symbols-outlined">🌙</span></div>
+                <form action="thanks.html" method="get">
+                    <h2 class="jointitle">Join Us</h2>
+                    <fieldset>
+                        <legend>Applicant Information</legend>
+                        <label class="top">First Name*  <input type="text" name="fname" placeholder="Name" required></label>
+
+                        <label class="top">Last Name*  <input type="text" name="lname" placeholder="Last Name" required></label>
+
+                        <label class="top">Business Position Title <input type="text" name="positiontitle"></label> 
+
+                        <label class="top">Email*  <input type="email" name="email" placeholder="yourmail@yourmail.com" required></label>
+
+                        <label class="top">Phone Number*  <input type="tel" name="phone" placeholder="1234567" required></label>
+
+                        <label class="top">Business Name*  <input type="text" name="businessname" placeholder="Business Name" required></label>
+
+                    </fieldset>
+
+                    <div>
+                        <fieldset class="radio-memb">
+
+                            <legend>Membership</legend>
+                            <div class="radios">
+                            <input type="radio" name="Membership" value="npmemb"><label>NP Membership</label><br>
+                            <input type="radio" name="Membership" value="bronze"><label>Bronze Membership</label><br>
+                            <input type="radio" name="Membership" value="silver"><label>Silver Membership</label><br>
+                            <input type="radio" name="Membership" value="gold"><label>Gold Membership</label>
+                            </div>
+                        </fieldset>
+                    </div>
+
+                    
+
+                    <fieldset>
+
+                        <label class="top">Business Description
+                        <input type="text" placeholder="Letters, hypens and spaces only, min 7 characters" pattern="[A-Za-z\s-]{7,}" name="business desc" />
+                        </label>
+                        <label id="hidden">
+                            <input type="hidden" id="submissionTime" name="submissionTime" />
+                        </label>
+
+                    </fieldset>
+                    <div><input class="submitBtn" type="submit" name="Join Us" value="Join Us"></div>
+                    
+
+                </form>
+
+            </div>
+
+            <div class="container-membership">
+                <h2>Membership</h2>
+                <div class="gold"><h2 >Gold</h2>
+                <p>With our gold membership, you can enjoy the best content on the market, also accessing significant discounts at any of our affiliated companies. <br>
+                    <strong>Just for $9.99</strong></p>
+                </div>
+                
+                <div class="silver"><h2 >Silver</h2>
+                <p>Silver membership is here to surprise you. You will be able to access various forums and content from our premium line. You will also access some discounts with some of our affiliates. <br>
+                    <strong>Just for $5.99</strong> </p>
+                </div>
+
+                <div class="bronze"><h2 >Bronze</h2>
+                <p>With our Bronze membership, we offer a monthly income of 5 premium news and access to 4 forums. You can enjoy discounts on the Tata supermarket line. <br>
+                   <strong>Just for $3.99.</strong> </p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+
+<footer>
+    <div class="logo-footer"> <img src="../chamber/iamges/chamber-logo-removebg-preview.png" alt="Chamber Logo"></div> 
+
+    <div class="grid-footer">
+         <div class="contact-info">
+             <h3>Contact Information</h3>
+             <p>pablonsantos1107@gmail.com</p>
+             <p>+999-999-999</p>
+             <p>📍 Location Map</p>
+         </div>
+         <div class="social-icons">
+
+             <a href="https://www.facebook.com/"><img src="iamges//facebook_icon-icons.com_66092.png" alt="facebook icon"></a>
+             <a href="https://www.linkedin.com/in/pablo-santos-511101167/"><img src="iamges/linkedin_icon-icons.com_65929.png" alt="linkedin icon"></a>
+             <a href="https://www.instagram.com/"><img src="iamges/instagram_logo_icon_186894.png" alt="instagram icon"></a>
+
+         </div>
+     </div>
+
+    <div class="basefooter">
+     &copy; <span id="year"></span> Montevideo Chamber | Pablo Santos |
+     WDD 230 Project | <span id="modified"></span>
+
+ </div>
+ </footer>
+
+ <script src="scripts/scripts.js"></script>
+</body>
+</html>
