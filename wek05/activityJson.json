@@ -1,0 +1,7 @@
+{
+    "week01" : ["week1/Tries/holygrail.html","week1/chamber-site-plan.html" ],
+    "week02" : ["week02/design.html", "week02/top10TBM/bom.html", "https://codepen.io/pangloss1107/pen/XWBMjOX", "chamber/index.html"],
+    "week03" : ["week03/index.html", "week03/lazyload.html", "https://codepen.io/pangloss1107/details/rNrzPVR"],
+    "week04" : ["https://codepen.io/pangloss1107/pen/PoBRXQa", "week04/combinators.html", "week04/table.html"], 
+    "week05" : ["https://codepen.io/pangloss1107/pen/XWByaXg", "wek05/new-ward-members.json", "wek05/prophets.html", "wek05/weather.html"]
+}

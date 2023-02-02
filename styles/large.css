@@ -126,5 +126,8 @@
         grid-template-columns: 1fr 1fr;
     }
 
+    .weather-container h4{
+        font-size: 2rem;
+    }
     
 }

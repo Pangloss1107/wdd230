@@ -309,12 +309,27 @@ table thead{
     background-color: var(--secon-color);
     color: rgb(250, 237, 237);
 }
-table thead th{
+table thead th{ 
     background-color: var(--secon-color);;
 }
 
 
 
+/*Weather Secrtion*/
 
+.weather-container{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.weather-container h4{
+    text-align: center;
+    padding: 1rem;
+    font-family: var(--titles);
+}
+figure{
+    margin: 0;
+}
 
 

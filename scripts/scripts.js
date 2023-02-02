@@ -125,3 +125,23 @@ function checkSame() {
 		kp2.style.color = "#000";
 	}
 }
+
+
+
+// Weeks
+const week01 = document.querySelector('#week01'); 
+const week02 = document.querySelector('#week02'); 
+const week03 = document.querySelector('#week03'); 
+const week04 = document.querySelector('#week04'); 
+const week05 = document.querySelector('#week05'); 
+
+
+window.onload = function() {
+	var container = document.getElementById("container");
+	for (var key in data) {
+	  var value = data[key];
+	  var div = document.createElement("div");
+	  div.innerHTML = key + ": " + value;
+	  container.appendChild(div);
+	}
+  };
