@@ -1,0 +1,23 @@
+{
+    "familyName": "Santos",
+    "dateofMoved" : "11-january-2023",
+    "numFamMembers" : "3",
+    "visitedByBishop" : "true",
+    "members" : [
+        {
+        "name" : "Pablo",
+        "gender" : "Male",
+        "birthdate" : "11-july-1997"
+    },
+    {
+        "name" : "Maria",
+        "gender" : "Female",
+        "birthdate" : "18-fabruary-1996"
+    },
+    {
+        "name" : "Mile",
+        "gender" : "Female",
+        "birthdate" : "26-september-2022"
+    }
+    ]
+}
