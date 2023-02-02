@@ -27,6 +27,6 @@ function displayResults(weatherData){
     currentTemp.innerHTML = `<p>Current Temperature: ${weatherData.main.temp.toFixed(0)} °F </p>`;
     captionDescription.innerHTML = `<p>Description: ${description}</p>`;
     weatherIcon.setAttribute('src', iconsrc);
-    weatherIcon.setAttribute('alt', desc);
+    weatherIcon.setAttribute('alt', description);
 
 }

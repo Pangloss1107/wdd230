@@ -134,7 +134,7 @@ const week02 = document.querySelector('#week02');
 const week03 = document.querySelector('#week03'); 
 const week04 = document.querySelector('#week04'); 
 const week05 = document.querySelector('#week05'); 
-const datas = "wek05\activityJson.json"
+const datas = "https://raw.githubusercontent.com/Pangloss1107/wdd230/main/wek05/activityJson.json"
 
 
 async function apiFetch() {
