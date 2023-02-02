@@ -18,7 +18,6 @@ async function apiFetch(){
         console.log(error);
     }
 }
-
 apiFetch();
 
 function displayResults(weatherData){
