@@ -152,12 +152,58 @@ function obtenerWeeks(){
                 console.log(value);
                 let a = document.createElement('a');
                 a.setAttribute('href', value)
-                
-                bweek01.appendChild(a)
-                bweek01.appendChild(key)
-
+                a.textContent = `${key} |`
                
                 
+                bweek01.appendChild(a)
+          
+            })
+            Object.entries(weeks.week02).forEach( ([key, value]) => {
+                console.log(key);
+                console.log(value);
+                let a = document.createElement('a');
+                a.setAttribute('href', value)
+                a.textContent = `${key} |`
+               
+                
+                bweek02.appendChild(a)
+          
+            })
+
+            Object.entries(weeks.week03).forEach( ([key, value]) => {
+                console.log(key);
+                console.log(value);
+                let a = document.createElement('a');
+                a.setAttribute('href', value)
+                a.textContent = `${key} |`
+               
+                
+                bweek03.appendChild(a)
+          
+            })
+
+            Object.entries(weeks.week04).forEach( ([key, value]) => {
+                console.log(key);
+                console.log(value);
+                let a = document.createElement('a');
+                a.setAttribute('href', value)
+                a.textContent = `${key} |`
+               
+                
+                bweek04.appendChild(a)
+          
+            })
+
+            Object.entries(weeks.week05).forEach( ([key, value]) => {
+                console.log(key);
+                console.log(value);
+                let a = document.createElement('a');
+                a.setAttribute('href', value)
+                a.textContent = `${key} |`
+               
+                
+                bweek05.appendChild(a)
+          
             })
 
 
