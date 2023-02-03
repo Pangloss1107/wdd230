@@ -1,24 +1,29 @@
 {   
     "weeks" : {
-        "week01" : {"HolyGrial" : "week1/Tries/holygrail.html", 
-        "Siteplan" : "week1/chamber-site-plan.html" 
+        "week01" : {
+            "HolyGrial" : "week1/Tries/holygrail.html", 
+            "Siteplan" : "week1/chamber-site-plan.html" 
     },
-        "week02" : {"Design": "week02/design.html", 
-        "Bom" : "week02/top10TBM/bom.html", 
-        "CodePen" : "https://codepen.io/pangloss1107/pen/XWBMjOX",
-        "Chamber": "chamber/index.html"
+        "week02" : {
+            "Design": "week02/design.html", 
+            "Bom" : "week02/top10TBM/bom.html", 
+            "CodePen" : "https://codepen.io/pangloss1107/pen/XWBMjOX",
+            "Chamber": "chamber/index.html"
     },
-        "week03" : {"Webp": "week03/index.html", 
-        "Lazyload" : "week03/lazyload.html", 
-        "Responsive Images" : "https://codepen.io/pangloss1107/details/rNrzPVR"
+        "week03" : {
+            "Webp": "week03/index.html", 
+            "Lazyload" : "week03/lazyload.html", 
+            "Responsive Images" : "https://codepen.io/pangloss1107/details/rNrzPVR"
     },
-        "week04" : {"Pseudo Elements" : "https://codepen.io/pangloss1107/pen/PoBRXQa", 
-        "Combinators" : "week04/combinators.html", 
-        "Table" : "week04/table.html"
+        "week04" : {
+            "Pseudo Elements" : "https://codepen.io/pangloss1107/pen/PoBRXQa", 
+            "Combinators" : "week04/combinators.html", 
+            "Table" : "week04/table.html"
     }, 
-        "week05" : {"Codepen" : "https://codepen.io/pangloss1107/pen/XWByaXg", 
-        "Json" : "wek05/new-ward-members.json", 
-        "Prophets" : "wek05/prophets.html", 
-        "Weather" : "wek05/weather.html"}
+        "week05" : {
+            "Codepen" : "https://codepen.io/pangloss1107/pen/XWByaXg", 
+            "Json" : "wek05/new-ward-members.json", 
+            "Prophets" : "wek05/prophets.html", 
+            "Weather" : "wek05/weather.html"}
 }
 }

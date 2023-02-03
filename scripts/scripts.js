@@ -129,65 +129,42 @@ function checkSame() {
 
 
 // Weeks
-const week01 = document.querySelector('#week01'); 
-const week02 = document.querySelector('#week02'); 
-const week03 = document.querySelector('#week03'); 
-const week04 = document.querySelector('#week04'); 
-const week05 = document.querySelector('#week05'); 
-const datas = "https://raw.githubusercontent.com/Pangloss1107/wdd230/main/wek05/activityJson.json"
+const bweek01 = document.querySelector('#week01'); 
+const bweek02 = document.querySelector('#week02'); 
+const bweek03 = document.querySelector('#week03'); 
+const bweek04 = document.querySelector('#week04'); 
+const bweek05 = document.querySelector('#week05'); 
+const data = "https://raw.githubusercontent.com/Pangloss1107/wdd230/main/wek05/activityJson.json"
 
 
-async function apiFetch() {
-    try {
-      const response = await fetch(datas);
-      if (response.ok) {
-        const data = await response.json();
+function obtenerWeeks(){
+    fetch(data)
+        .then(resultado =>{
+            return resultado.json();
+        })
+        .then(datos => {
+            //console.log(datos.weeks);
+            const { weeks } = datos;
+            console.log(weeks.week01)
+            
+            Object.entries(weeks.week01).forEach( ([key, value]) => {
+                console.log(key);
+                console.log(value);
+                let a = document.createElement('a');
+                a.setAttribute('href', value)
+                
+                bweek01.appendChild(a)
+                bweek01.appendChild(key)
 
-        displayResults(data); // uncomment when ready
-      } else {
-          throw Error(await response.text());
-      }
-    } catch (error) {
-        console.log(error);
-    }
-  }
-  apiFetch();
-  
-  function displayResults(data) {
-    //for weeks;
-    let keysW1= Object.keys(data.weeks.week01);
-    let valuesW1= Object.values(data.weeks.week01);
+               
+                
+            })
 
-    let keysW2= Object.keys(data.weeks.week02);
-    let valuesW2= Object.values(data.weeks.week02);
 
-    let keysW3= Object.keys(data.weeks.week03);
-    let valuesW3= Object.values(data.weeks.week03);
-
-    let keysW4= Object.keys(data.weeks.week04);
-    let valuesW4= Object.values(data.weeks.week04);
-
-    let keysW5= Object.keys(data.weeks.week05);
-    let valuesW5= Object.values(data.weeks.week05);
-
-    printKeys(keysW1, valuesW1, week01);
-    printKeys(keysW2, valuesW2, week02);
-    printKeys(keysW3, valuesW3, week03);
-    printKeys(keysW4, valuesW4, week04);
-    printKeys(keysW5, valuesW5, week05);  
-                   
-}
-
-function printKeys(keys,values, jweek){
-    let i=0;
-keys.forEach((key) =>{
    
-        let text= "  |";
-        let weekLink=document.createElement('a');
-        let link = document.createTextNode(key.concat(text));
-        weekLink.href = values[i];
-            i+=1;
-        weekLink.appendChild(link);
-        jweek.appendChild(weekLink);
-});
-}   
+        })
+
+        
+}
+obtenerWeeks();
+
