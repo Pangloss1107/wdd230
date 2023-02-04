@@ -507,3 +507,116 @@ div.container-membership {
 .ocultar{
     display: none;
 }
+
+/*Directory*/
+
+
+div.cards{
+    padding: 0;
+    border: none;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.cards  {
+    display: grid;grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  
+    
+}
+
+.cards section{
+    max-width: 100%;
+    text-align: center;
+    border: 1px solid var(--second-color);
+    padding: 2rem;
+    background-color: #fffcfc;
+    margin:1rem;
+    box-shadow: 5px 5px rgb(0,0,0,.5);
+}
+
+section h2{
+    font-size: 2rem;
+    font-family: var(--titles);
+}
+
+.cards p{
+    font-size: 20px;
+    padding: 1rem;
+    margin: 1rem;
+    font-family: var(--text);
+}
+.cards a{
+    font-size: 18px;
+    padding: 1rem;
+    margin: 0;
+    font-family: var(--text);
+    color: var(--second-color);
+}
+
+.cards img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+.cards #list {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+.cards.list section {
+    margin: 0;
+    padding: 0;
+    background-color: var(--fourth-color);
+    text-align: start;
+    width: 100%;
+}
+
+.cards.list section h2 {
+font-size: 1.3rem;
+padding-left:1rem;
+}
+.cards.list section  p{
+    font-size: 20px;
+   
+}
+.cards.list section a{
+    font-size: 20px;
+    
+}
+
+.cards.list section:nth-child(even) {
+background-color: rgb(201, 198, 198);
+}
+
+.cards.list section:hover {
+box-shadow: 10px 10px 10px 10px rgb(124, 124, 124, 0.8);
+}
+
+.cards.list img{ display: none;
+}
+
+#grid{
+    margin: .5rem;
+    padding: .5rem;
+}
+#list{
+    margin:.5rem;
+    padding: .4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+    
+}
+.flexbox button{
+    font-family: var(--text);
+    font-size: 15px;
+}

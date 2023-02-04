@@ -1,4 +1,4 @@
-const newrequestURL = 'https://pangloss1107.github.io/chamber/directory/scripts/data.json'
+const newrequestURL = 'https://raw.githubusercontent.com/Pangloss1107/wdd230/main/chamber/members.json'
 const cards = document.querySelector('cards');
 
 fetch(newrequestURL)
@@ -19,6 +19,7 @@ function displayClients(clients){
     let portrait = document.createElement('img');
     let adress = document.createElement('p');
     let phone = document.createElement('p');
+    let memb = document.createElement('p');
     let website = document.createElement('a');
 
 
@@ -35,6 +36,7 @@ function displayClients(clients){
     adress.textContent = clients.adress
     phone.textContent = clients.phonenumber
     website.textContent = clients.website
+    memb.textContent = " Membership Level:" + " " + clients.membershiplevel
 
     //Add the section(card) with the elements
 
@@ -42,6 +44,7 @@ function displayClients(clients){
     card.appendChild(portrait);
     card.appendChild(adress);
     card.appendChild(phone);
+    card.appendChild(memb);
     card.appendChild(website);
 
     document.querySelector('article.cards').appendChild(card);
