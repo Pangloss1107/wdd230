@@ -456,6 +456,11 @@ div.container-membership{
     display: flex;
     flex-direction: column;
 }
+.container-membership h3{
+    text-align: center;
+    font-family: var(--titles);
+    letter-spacing: 3px;
+}
 .container-membership div{
     display: flex;
     flex-direction: column;
