@@ -31,6 +31,7 @@ function displayClients(clients){
     portrait.setAttribute('src', clients.imageUrl);
     portrait.setAttribute('alt', 'Image of ' + clients.name + ' company');
     portrait.setAttribute('loading', 'lazy');
+    portrait.setAttribute('height', '250px');
 
     //Build the paragraph with the information
     adress.textContent = clients.adress
