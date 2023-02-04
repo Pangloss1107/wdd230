@@ -1,0 +1,76 @@
+{
+    "clients": [{
+        "name": "Tata",
+        "adress": "Camino Carrasco",
+        "phonenumber": "+598 977 546 123",
+        "website" : "https://www.tata.com.uy/", 
+        "imageUrl" : "https://github.com/Pangloss1107/pangloss1107.github.io/blob/main/chamber/images/tata.png?raw=true",
+        "membershiplevel" : "Silver"
+    },
+    {
+        "name": "Los 33",
+        "adress": "Camino Carrasco 4675",
+        "phonenumber": "2525 57 54",
+        "website" : "https://supermercadosgrupal.com.uy/", 
+        "imageUrl" : "https://github.com/Pangloss1107/pangloss1107.github.io/blob/main/chamber/images/los33.png?raw=true",
+        "membershiplevel" : "Gold"
+    },
+    {
+        "name": "Tienda Inglesa",
+        "adress": "Libertad 2479",
+        "phonenumber": "2522 47 85",
+        "website" : "https://www.tiendainglesa.com.uy/", 
+        "imageUrl" : "https://github.com/Pangloss1107/pangloss1107.github.io/blob/main/chamber/images/tienda.png?raw=true",
+        "membershiplevel" : "Gold"
+    },
+    {
+        "name": "Forum",
+        "adress": "18 de Julio 1520 ",
+        "phonenumber": "2403-6394",
+        "website" : "https://www.forum.com.uy/", 
+        "imageUrl" : "https://github.com/Pangloss1107/pangloss1107.github.io/blob/main/chamber/images/forum.png?raw=true",
+        "membershiplevel" : "Silver"
+    },
+    {
+        "name": "Devoto",
+        "adress": "Avenida Italia 6958 ",
+        "phonenumber": "2601 0443",
+        "website" : "https://www.devoto.com.uy/", 
+        "imageUrl" : "https://raw.githubusercontent.com/Pangloss1107/pangloss1107.github.io/main/chamber/images/devoto.webp",
+        "membershiplevel" : "Gold"
+    },
+    {
+        "name": "La Cancha ",
+        "adress": "Av. Dr. Luis Alberto de Herrera 1290",
+        "phonenumber": "2622 8008",
+        "website" : "https://www.lacancha.uy/", 
+        "imageUrl" : "https://github.com/Pangloss1107/pangloss1107.github.io/blob/main/chamber/images/lacancha.png?raw=true",
+        "membershiplevel" : "Gold"
+    },
+    {
+        "name": "Lacoste",
+        "adress": "Avda. Alfredo Arocena 1609",
+        "phonenumber": "+598 2 6016915",
+        "website" : "https://global.lacoste.com", 
+        "imageUrl" : "https://github.com/Pangloss1107/pangloss1107.github.io/blob/main/chamber/images/lacoste.png?raw=true",
+        "membershiplevel" : "Silver"
+    },
+    {
+        "name": "La Pasiva",
+        "adress": "Arocena 1644",
+        "phonenumber": "26008965",
+        "website" : "https://lapasiva.com.uy", 
+        "imageUrl" : "https://github.com/Pangloss1107/pangloss1107.github.io/blob/main/chamber/images/lapasiva.png?raw=true",
+        "membershiplevel" : "Bronze"
+    },
+    {
+        "name": "Abitab",
+        "adress": "Avda. Arocena 1568",
+        "phonenumber": "26005891",
+        "website" : "https://www.abitab.com.uy/", 
+        "imageUrl" : "https://github.com/Pangloss1107/pangloss1107.github.io/blob/main/chamber/images/abitab.png?raw=true",
+        "membershiplevel" : "Silver"
+    }
+
+    ]
+}
