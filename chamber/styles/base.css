@@ -127,6 +127,13 @@ nav ul.open {display: block;}
 
 /* Main Area*/
 
+h2{
+    font-family: var(--titles);
+    font-size: 2rem;
+    letter-spacing: 1px;
+    color: var(--second-color);
+    text-align: center;
+}
 .hero{
     position: relative;
     display: inline-block;
@@ -215,27 +222,24 @@ nav ul.open {display: block;}
     text-decoration: none;
 }
 
-.spotlight1, .spotlight2, .spotlight3{
-    margin-top: 1rem;
+.titleh3{
+    font-family: var(--titles);
+    font-size: 2rem;
+    letter-spacing: 1px;
+    color: var(--second-color);
+}
+.spotlights img{
+    width: 100%;
+}
+.spotlights div{
+    text-align: center;
     border: 1px solid var(--second-color);
     border-radius: 10px;
     padding: 1rem;
+    margin-top: 1rem;
 }
-.spotlights h2{
-    font-size: 1.3rem;
-    font-family: var(--titles);
-    letter-spacing: 1px;
-    color: var(--second-color);
-}
-.spotlights h3{
-    font-size: 1.3rem;
-    font-family: var(--titles);
-    letter-spacing: 1px;
-    color: var(--second-color);
-}
-#spottitle{
-    text-align: center;
-    font-size: 2rem;
+.spotlights p{
+    font-family: var(--text);
 }
 .up p{
     text-align: end;
@@ -626,3 +630,22 @@ box-shadow: 10px 10px 10px 10px rgb(124, 124, 124, 0.8);
     font-family: var(--text);
     font-size: 15px;
 }
+
+
+
+.banner {    
+    grid-column: 1/-1;
+    background-color: var(--main-color);
+    border: 1px solid #614F5D;
+    color: var(--fourth-color);
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .banner{
+    display: none;
+  }
+  
+  .banner.open{
+    display: block;
+  }

@@ -94,19 +94,22 @@
         grid-column: 1;
         grid-row: 1;
     }
-    .spotlights{
-        grid-column: 2;
-        grid-row: 1;
-        margin-top: 1rem;
+    .clients {
+        border: none;
+    }
+
+    div .spotlights {
         border: 1px solid var(--second-color);
         border-radius: 10px;
         padding: 1rem;
+        margin-top: 1rem;
     }
 
-    .spotlight1, .spotlight2, .spotlight3{
-        border: 1px solid var(--third-color);
+    div .spotlights div{
+        border: none;
+        border-top: 1px solid var(--third-color);
+        border-radius: none;
     }
-
     .news{
         grid-column: 1/-1;
         grid-row: 2;
@@ -333,5 +336,16 @@
       .cards.list section{
         border: none;
       }
+      div .banner.open{
+        display: flex;
+        justify-content: center;
+      }
+      .banner.open{
+        display: flex;
+        max-width: 100%;
+        justify-content: center;
+      }
+
+
 
 }

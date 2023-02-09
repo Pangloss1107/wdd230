@@ -64,3 +64,65 @@ if (numVisits !== 0) {
 numVisits++;
 // store the new number of visits value
 localStorage.setItem("visits-ls", numVisits);
+
+
+
+
+
+// Obtain 3 spotlights
+const requestURL = 'https://raw.githubusercontent.com/Pangloss1107/wdd230/main/chamber/members.json';
+
+fetch(requestURL)
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (jsonObject) {
+    console.table(jsonObject); // temporary checking for valid response and data parsing
+    const clients = jsonObject["clients"];
+    
+    for (let i = 0; i < 3; i++) {
+        let clientsSection = document.createElement("div");      
+        let h3 = document.createElement("h3");
+        let portrait = document.createElement("img");
+        let p3 = document.createElement("p");
+        let p4 = document.createElement("p");
+        let web = document.createElement("a")
+
+		let j = (Math.floor(Math.random()*9));
+
+		clientsSection.setAttribute('class', 'clients');
+		h3.textContent =  clients[j].name;
+		h3.setAttribute('class', 'titleh3')
+		portrait.setAttribute('src', clients[j].imageUrl);
+		portrait.setAttribute('alt', 'Image of ' + clients[j].name + ' company');
+		portrait.setAttribute('loading', 'lazy');
+		p3.textContent = clients[j].adress;
+		p3.setAttribute('class', 'adressline');
+		p4.textContent = `Phone number: ${clients[j].phonenumber}`;
+		p4.setAttribute('class', 'pnumber')
+		web.setAttribute('href', clients[j].website);
+		web.textContent = clients[j].website;
+
+		clientsSection.appendChild(h3);
+		clientsSection.appendChild(portrait);
+		clientsSection.appendChild(p3);
+		clientsSection.appendChild(p4);
+		clientsSection.appendChild(web);
+
+
+		document.querySelector('section.spotlights').appendChild(clientsSection);
+    }
+  });
+
+
+
+  //Update the banner if the day is Monday, Tuesday, or Wednesdays 
+
+  const banner = document.querySelector('.banner');
+
+const actualDay = d.getDay();
+console.log(actualDay);
+if (actualDay === 1 || actualDay === 2) {
+banner.classList.add('open');
+  
+}
