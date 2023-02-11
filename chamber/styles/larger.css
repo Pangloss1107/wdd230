@@ -110,6 +110,10 @@
         border-top: 1px solid var(--third-color);
         border-radius: none;
     }
+
+    .spotlights img{
+        width: 30%;
+    }
     .news{
         grid-column: 1/-1;
         grid-row: 2;
@@ -346,6 +350,28 @@
         justify-content: center;
       }
 
+
+
+    .forecasting img{
+    width: 200px;
+    
+    }
+    
+    .forecasting p{
+    font-size: 20px;
+    }
+
+    .forecasting div{
+    border: 1px solid var(--second-color);
+    width: 100%;
+    }
+
+    .three-days-weather h3{
+        border: 1px solid var(--third-color);
+        width: 100%;
+        background-color: var(--second-color);
+        color: var(--fourth-color);
+    }
 
 
 }

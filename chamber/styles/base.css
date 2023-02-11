@@ -649,3 +649,62 @@ box-shadow: 10px 10px 10px 10px rgb(124, 124, 124, 0.8);
   .banner.open{
     display: block;
   }
+
+
+  /* Weather Section*/
+
+  .three-days-weather{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .three-days-weather h3{
+    font-family: var(--titles);
+    color: var(--second-color);
+    letter-spacing: 1px;
+  }
+
+  .three-days-weather p{
+    font-family: var(--text);
+    color: var(--second-color);
+    text-align: center;
+  }
+  .three-days-weather .forecasting{
+    display: flex;
+    justify-content: center;
+  }
+
+  .forecasting{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    width: 100%;
+    
+  }
+
+  .forecasting img{
+    width: 78.5px;
+    
+  }
+  
+  .forecasting p{
+    font-size: 12px;
+  }
+
+  .forecasting div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 160.41px;
+  }
+
+
+  .weather{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }

@@ -85,7 +85,7 @@ async function apiFetch() {
       icons.setAttribute('src', forecastIcon);
       icons.setAttribute('loading', 'lazy');
       dateForecast.textContent = date;
-      temper.textContent = temperature
+      temper.textContent = temperature + "°C"
       descr.textContent = description
 
       
