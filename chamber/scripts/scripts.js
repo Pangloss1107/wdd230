@@ -110,7 +110,8 @@ fetch(requestURL)
 		clientsSection.appendChild(web);
 
 
-		}
+		document.querySelector('.spotlights').append(clientsSection);
+    }
   });
 
 
