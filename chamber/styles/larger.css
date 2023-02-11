@@ -108,7 +108,7 @@
     div .spotlights div{
         border: none;
         border-top: 1px solid var(--third-color);
-        border-radius: none;
+        
     }
 
     .spotlights img{

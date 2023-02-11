@@ -77,7 +77,7 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject); // temporary checking for valid response and data parsing
+    
     const clients = jsonObject["clients"];
     
     for (let i = 0; i < 3; i++) {
@@ -110,8 +110,7 @@ fetch(requestURL)
 		clientsSection.appendChild(web);
 
 
-		document.querySelector('section.spotlights').appendChild(clientsSection);
-    }
+		}
   });
 
 
@@ -121,7 +120,6 @@ fetch(requestURL)
   const banner = document.querySelector('.banner');
 
 const actualDay = d.getDay();
-console.log(actualDay);
 if (actualDay === 1 || actualDay === 2) {
 banner.classList.add('open');
   

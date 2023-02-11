@@ -10,13 +10,11 @@ async function apiFetch() {
       const response = await fetch(url);
       if (response.ok) {
         const data = await response.json();
-        console.log(data); // testing the call
         displayResults(data);
       } else {
           throw Error(await response.text());
       }
     } catch (error) {
-        console.log(error);
     }
   }
   
@@ -42,7 +40,6 @@ async function apiFetch() {
 
   function windChill(temperature, windspeed) {
     if (temperature <=50 && windspeed >= 3){
-        console.log(temperature)
         let windchill = 35.74 + 0.6215 * temperature - 35.75 * (Math.pow(windspeed, 0.16)) + 0.4275 * temperature * (Math.pow(windspeed, 0.16));
         return windchill.toFixed(1) + "°" + "F";
     } else{
@@ -61,7 +58,7 @@ async function apiFetch() {
     let forecast = data.list.filter(item => item.dt_txt.includes("12:00:00"))
     let nextThreeDays = forecast.slice(0, 3)
     
-    console.log(data)
+    
     
     nextThreeDays.forEach(day => {
       let date = new Date(day.dt * 1000).toLocaleDateString()
@@ -69,7 +66,7 @@ async function apiFetch() {
       let description = day.weather[0].description.toUpperCase();
       let forecastIcon = `https://openweathermap.org/img/wn/${day.weather[0].icon}@4x.png`;
       let place = day.name
-      console.log(`${date}: ${temperature}  ${forecastIcon}   ${description} ${place}`)
+      
 
       
 
