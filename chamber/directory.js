@@ -15,7 +15,7 @@ fetch(newrequestURL)
 function displayClients(clients){
     //create elements to add to the document
     let card = document.createElement('section');
-    let h2 = document.createElement('h2');
+    let h2 = document.createElement('h3');
     let portrait = document.createElement('img');
     let adress = document.createElement('p');
     let phone = document.createElement('p');

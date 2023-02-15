@@ -543,9 +543,10 @@ div.cards{
     box-shadow: 5px 5px rgb(0,0,0,.5);
 }
 
-section h2{
+.cards section h3{
     font-size: 2rem;
     font-family: var(--titles);
+    color: var(--second-color);
 }
 
 .cards p{
