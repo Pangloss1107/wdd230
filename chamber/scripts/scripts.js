@@ -121,7 +121,7 @@ fetch(requestURL)
   const banner = document.querySelector('.banner');
 
 const actualDay = d.getDay();
-if (actualDay === 1 || actualDay === 2) {
+if (actualDay === 1 || actualDay === 3) {
 banner.classList.add('open');
   
 }
