@@ -353,6 +353,11 @@
 
 
 
+
+    .flexboxweather img{
+        width: 200px;
+      }
+
     .forecasting img{
     width: 200px;
     

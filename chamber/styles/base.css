@@ -654,6 +654,14 @@ box-shadow: 10px 10px 10px 10px rgb(124, 124, 124, 0.8);
 
   /* Weather Section*/
 
+  .flexboxweather{
+    display: flex;
+    flex-direction: column;
+  }
+  .flexboxweather img{
+    width: 78.5px;
+  }
+    
   .three-days-weather{
     display: flex;
     justify-content: center;
