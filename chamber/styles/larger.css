@@ -379,5 +379,11 @@
         color: var(--fourth-color);
     }
 
-
+    .directory-title h1{
+        text-align: center;
+        font-family: var(--titles);
+        color: var(--second-color);
+        letter-spacing: 3px;
+        font-size: 4rem;
+    }
 }

@@ -11,6 +11,10 @@
 p{
     font-size: 16px;
 }
+main{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
 
 /* Navigation Menu */
 
@@ -663,6 +667,7 @@ box-shadow: 10px 10px 10px 10px rgb(124, 124, 124, 0.8);
   }
     
   .three-days-weather{
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -717,3 +722,21 @@ box-shadow: 10px 10px 10px 10px rgb(124, 124, 124, 0.8);
     align-items: center;
     text-align: center;
   }
+
+
+  .directory-title h1{
+    text-align: center;
+    font-family: var(--titles);
+    color: var(--second-color);
+    letter-spacing: 3px;
+    font-size: 4rem;
+}
+
+.home-title h1{
+    text-align: center;
+    font-family: var(--titles);
+    color: var(--second-color);
+    letter-spacing: 3px;
+    font-size: 2rem;
+    border-bottom: 1px solid var(--second-color);
+}
