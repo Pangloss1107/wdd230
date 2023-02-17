@@ -369,8 +369,8 @@ div.visits{
     border: none;
     width: 50%;
     margin: 0 auto;
-    background-color: var(--main-color);
-    color: white;
+    background-color: var(--fourth-color);
+    color: var(--second-color);
 }
 
 /*Join Page */
