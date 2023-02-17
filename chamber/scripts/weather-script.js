@@ -45,19 +45,13 @@ async function apiFetch() {
   fetch(`https://api.openweathermap.org/data/2.5/forecast?q=montevideo&cnt=3&APPID=c92da9c225d37c00cbc016f0f33a7e7e&units=metric&units=metric`)
   .then(response => response.json())
   .then(data => {
-    
-    
-    
+
     data.list.forEach(day => {
       let date = new Date(day.dt * 1000).toLocaleDateString();
       let temperature = day.main.temp.toFixed(0);
       let description = day.weather[0].description.toUpperCase();
       let forecastIcon = `https://openweathermap.org/img/wn/${day.weather[0].icon}@4x.png`;
       
-      
-
-      
-
 
       let forecast = document.querySelector(".forecasting")
       let fores = document.createElement("div");

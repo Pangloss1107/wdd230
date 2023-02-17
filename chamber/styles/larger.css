@@ -279,7 +279,9 @@
         padding: 1rem;
         font-size: 20px;
         width: 30%;
-        color: white;
+        color: var(--second-color);
+        background-color: var(--fourth-color);
+        
     }
 
 
